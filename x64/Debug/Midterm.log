@@ -1,0 +1,6 @@
+﻿  combat.cpp
+C:\Users\ngota\source\repos\Midterm\Midterm\combat.cpp(21,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  map.cpp
+C:\Users\ngota\source\repos\Midterm\Midterm\map.cpp(199,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Midterm.vcxproj -> C:\Users\ngota\source\repos\Midterm\x64\Debug\Midterm.exe

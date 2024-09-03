@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/ngota/source/repos/midterm/midterm/combat.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a07a93000f4551c990973f3d00d263d64f4ee721de2288f0a6dd98d79c8b9bf7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ngota/source/repos/midterm/midterm/combat.h"
+          },
+          "hashes": {
+            "sha-256": "a4d79195528ed088728a6caf105086901fdfafff6aa0b529668fcd866bbdf51f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ngota/source/repos/midterm/midterm/player.h"
+          },
+          "hashes": {
+            "sha-256": "665f9f0a16d425b4c3af0bba72e57bb894c263346de75459999712887d938793"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ngota/source/repos/midterm/midterm/slime.h"
+          },
+          "hashes": {
+            "sha-256": "fa81dff1d779fe12030a831ef2b7646e36a0987bc034c6fc51034b031f5fa1b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ngota/source/repos/midterm/midterm/enemeyslime.h"
+          },
+          "hashes": {
+            "sha-256": "3da7989fb6c2fbfbec93601293761b4bcd2b2749ae393994fe8259a7787613f0"
+          }
+        }
+      ]
+    }
+  ]
+}
